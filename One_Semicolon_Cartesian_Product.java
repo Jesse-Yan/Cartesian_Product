@@ -1,19 +1,9 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class One_Semicolon_Cartesian_Product {
-
-  public static void main(String[] args) {
-
-    Set<int[]> result =
-        cartesianProduct(new int[][] {new int[] {0}, new int[] {1}, new int[] {1, 2}});
-    for (int[] i : result) {
-      System.out.println(Arrays.toString(i));
-    }
-  }
+public class CartesianProduct {
 
   public static Set<int[]> cartesianProduct(int[][] sets) {
 
